@@ -12,7 +12,7 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up-page/sign-in-and-si
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
-import CheckoutPage from './pages/checkout/checkout.component';
+import CheckoutPage from './pages/checkoutpage/checkoutpage.component';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
