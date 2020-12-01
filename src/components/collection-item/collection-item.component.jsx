@@ -21,7 +21,6 @@ const CollectionItem = ({ item, addItem }) => {
         <span className='price'>{price}</span>
       </div>
       <CustomButton // className already present in CustomButton component
-        className='custom-button'
         inverted
         onClick={() => addItem(item)}
       >
