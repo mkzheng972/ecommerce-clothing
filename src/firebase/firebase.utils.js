@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyBQ12ZDGO1gkmYgBoR706DARKQHd2_rgiE',
+  apiKey: '',
   authDomain: 'ecommerce-clothing-db-bad1e.firebaseapp.com',
   databaseURL: 'https://ecommerce-clothing-db-bad1e.firebaseio.com',
   projectId: 'ecommerce-clothing-db-bad1e',
